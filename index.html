@@ -1,43 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday [Friend's Name]!</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore - Your Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=YourFontName&display=swap" rel="stylesheet"> <!-- Replace with actual font -->
 </head>
 <body>
-  <!-- Background Music -->
-  <audio id="background-music" loop>
-    <source src="your-birthday-song.mp3" type="audio/mpeg">
-  </audio>
-  <button class="music-control" onclick="toggleMusic()">🎶</button>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1>Happy Birthday, [Friend's Name]!</h1>
-    <p>Celebrating your beautiful journey!</p>
-  </section>
-
-  <!-- Memory Sections -->
-  <section class="memory" id="childhood">
-    <h2>Childhood</h2>
-    <img src="childhood.jpg" alt="Childhood Image" class="photo">
-    <p>Reflecting on the wonderful moments...</p>
-  </section>
-
-  <section class="memory" id="teen-years">
-    <h2>Teen Years</h2>
-    <img src="teen.jpg" alt="Teen Years" class="photo">
-    <p>Growing up and discovering passions...</p>
-  </section>
-
-  <section class="memory" id="adulthood">
-    <h2>Adulthood</h2>
-    <img src="adulthood.jpg" alt="Adulthood" class="photo">
-    <p>Achievements and adventures!</p>
-  </section>
-
-  <script src="script.js"></script>
+    <header>
+        <h1>Explore</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h2>Welcome to Your Journey</h2>
+            <p>Discover the world of possibilities.</p>
+            <a href="#services" class="cta-button">Get Started</a>
+        </section>
+        <section id="about">
+            <h3>About Us</h3>
+            <p>We are committed to providing exceptional services to our clients. Our team of experts is here to guide you on your journey.</p>
+        </section>
+        <section id="services">
+            <h3>Our Services</h3>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/150" alt="Service 1">
+                <h4>Service 1</h4>
+                <p>Description of service 1.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/150" alt="Service 2">
+                <h4>Service 2</h4>
+                <p>Description of service 2.</p>
+            </div>
+            <div class="service-card">
+                <img src="https://via.placeholder.com/150" alt="Service 3">
+                <h4>Service 3</h4>
+                <p>Description of service 3.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Website</p>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
