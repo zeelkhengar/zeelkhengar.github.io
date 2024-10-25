@@ -1,84 +1,37 @@
-/* General Styles */
-body {
-  background: linear-gradient(135deg, #ffafbd, #ffc3a0);
-  color: #2d2d2d;
-  font-family: 'Roboto', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Background Music -->
+  <audio id="background-music" loop>
+    <source src="path-to-your-birthday-music.mp3" type="audio/mpeg">
+  </audio>
+  <button onclick="playMusic()">Play Music</button>
 
-/* Welcome Section */
-.welcome h1 {
-  font-size: 3rem;
-  color: #fff;
-  text-shadow: 2px 2px #ff6a88;
-  margin-top: 20px;
-}
+  <!-- Welcome Section -->
+  <section class="welcome">
+    <h1>🎉 Happy Birthday, [Friend’s Name]! 🎉</h1>
+    <p>Let's take a walk down memory lane...</p>
+  </section>
 
-.welcome p {
-  font-size: 1.2rem;
-  color: #333;
-  animation: fadeIn 3s ease-out;
-}
-
-/* Gallery Section */
-.gallery {
-  margin-top: 50px;
-  position: relative;
-  width: 80%;
-  padding: 20px;
-  background: #fff;
-  border-radius: 10px;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.gallery h2 {
-  font-size: 2.5rem;
-  color: #ff4081;
-}
-
-.image-container {
-  display: flex;
-  overflow-x: auto;
-  gap: 15px;
-  padding: 10px;
-}
-
-.photo {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-  opacity: 0;
-  transform: scale(0.8);
-  transition: all 0.3s ease-in-out;
-}
-
-.photo.active {
-  opacity: 1;
-  transform: scale(1);
-}
-
-/* Balloon Animation */
-.balloon-animation {
-  position: absolute;
-  bottom: -50px;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url('balloon.png');
-  background-repeat: repeat-x;
-  background-size: 50px;
-  animation: balloon-rise 8s infinite ease-in-out;
-}
-
-@keyframes balloon-rise {
-  0% { transform: translateY(100%); }
-  100% { transform: translateY(-100%); }
-}
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
+  <!-- Gallery Section -->
+  <section class="gallery">
+    <div class="balloon-animation"></div>
+    <h2>Your Journey</h2>
+    <p>Swipe through the memories!</p>
+    <div class="image-container">
+      <!-- Add your friend's images here -->
+      <img src="childhood.jpg" alt="Childhood" class="photo hidden">
+      <img src="teen.jpg" alt="Teen Years" class="photo hidden">
+      <img src="adulthood.jpg" alt="Adulthood" class="photo hidden">
+      <!-- Additional images can go here -->
+    </div>
+  </section>
+</body>
+<script src="script.js"></script>
+</html>
