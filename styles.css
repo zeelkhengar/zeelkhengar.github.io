@@ -1,54 +1,75 @@
 body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  color: #fff;
+    font-family: 'YourFontName', sans-serif; /* Replace with actual font */
+    margin: 0;
+    padding: 0;
+    color: #333; /* Replace with actual text color */
+    background-color: #f9f9f9; /* Replace with actual background color */
 }
 
-/* Hero Section */
-.hero {
-  background: url('hero-background.jpg') no-repeat center center/cover;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  animation: fadeIn 1s ease-in;
+header {
+    background-color: #2c3e50; /* Replace with actual header color */
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-.hero h1 {
-  font-size: 3rem;
-  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+nav ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.hero p {
-  font-size: 1.5rem;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-/* Memory Sections */
-.memory {
-  background: rgba(0, 0, 0, 0.7);
-  padding: 50px;
-  text-align: center;
-  transition: transform 0.5s, opacity 0.5s;
+nav ul li a {
+    color: white; /* Replace with actual link color */
+    text-decoration: none;
 }
 
-.memory img {
-  max-width: 100%;
-  border-radius: 15px;
+#hero {
+    background-image: url('https://via.placeholder.com/1200x600'); /* Replace with your hero image */
+    background-size: cover;
+    color: white; /* Replace with actual hero text color */
+    padding: 100px 20px;
+    text-align: center;
 }
 
-/* Music Button */
-.music-control {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #ff4081;
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  font-size: 24px;
-  cursor: pointer;
+.cta-button {
+    background-color: #e74c3c; /* Replace with actual button color */
+    color: white; /* Replace with actual button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+.service-card {
+    border: 1px solid #ccc; /* Replace with actual card border color */
+    padding: 20px;
+    margin: 20px;
+    display: inline-block;
+    width: calc(33% - 60px);
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.service-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.service-card:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50; /* Replace with actual footer color */
+    color: white;
 }
