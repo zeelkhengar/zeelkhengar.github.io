@@ -233,3 +233,200 @@ form button:hover {
   display: none;
   z-index: 1000;
 }
+
+
+
+
+/* responsive */
+
+/* Responsive adjustments */
+@media only screen and (max-width: 1200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .info1 {
+    margin: 20px 0;
+    padding: 20px;
+    margin-left: 0;
+  }
+
+  .container h1 {
+    font-size: 3rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    border-width: 45px;
+  }
+
+  .container {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .info1 {
+    padding: 10px;
+  }
+
+  .container h1 {
+    font-size: 2.5rem;
+  }
+
+  form button {
+    font-size: 20px;
+    padding: 12px 24px;
+  }
+
+  .custom-alert {
+    width: 80%;
+    font-size: 1.5rem;
+  }
+
+  .custom-alert p {
+    font-size: 1.2rem;
+  }
+
+  .custom-alert button {
+    font-size: 1rem;
+    padding: 8px 16px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    border-width: 20px;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+  }
+
+  .custom-alert {
+    font-size: 1.2rem;
+    padding: 15px;
+  }
+
+  .custom-alert p {
+    font-size: 1rem;
+  }
+
+  .custom-alert button {
+    font-size: 0.9rem;
+  }
+
+  form button {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+
+/* responsive css */
+
+/* Additional responsive adjustments for better mobile compatibility */
+@media only screen and (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+  }
+
+  .info1 {
+    margin: 0;
+    padding: 15px;
+  }
+
+  .container h1 {
+    font-size: 3rem;
+  }
+
+  form button {
+    font-size: 20px;
+    padding: 14px 28px;
+  }
+  
+  .custom-alert {
+    width: 90%;
+    font-size: 1.8rem;
+    padding: 15px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    border-width: 20px;
+  }
+
+  .container {
+    padding: 5px;
+    text-align: center;
+  }
+
+  .info1 {
+    padding: 5px;
+  }
+
+  .container h1 {
+    font-size: 2rem;
+  }
+
+  form button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+
+  .custom-alert {
+    width: 80%;
+    font-size: 1.4rem;
+  }
+
+  .custom-alert p {
+    font-size: 1.1rem;
+  }
+
+  .custom-alert button {
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
+
+  .bg-bubbles li {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container h1 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+
+  form button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .custom-alert {
+    font-size: 1rem;
+    padding: 10px;
+  }
+
+  .custom-alert p {
+    font-size: 0.9rem;
+  }
+
+  .custom-alert button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
+
+  .img-small {
+    width: 80px;
+    height: 80px;
+  }
+}
+
