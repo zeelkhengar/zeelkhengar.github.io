@@ -347,3 +347,87 @@ a.lk2:hover {
 }
 
 
+/* Responsive Design */
+
+/* Adjust for smaller devices (up to 768px) */
+@media (max-width: 768px) {
+	.happy {
+	  font-size: 20px;
+	  left: 25%;
+	  top: 45%;
+	  transform: translateX(-12%);
+	}
+  
+	.happy p {
+	  font-size: 16px;
+	}
+  
+	.button-style1, .button-style2 {
+	  top: 80%;
+	}
+  
+	.button-style1 {
+	  left: 10%;
+	}
+  
+	.button-style2 {
+	  left: 60%;
+	}
+  
+	#cake {
+	  width: 150px;
+	  height: 400px;
+	}
+	
+	.velas {
+	  top: 180px;
+	  height: 25px;
+	}
+  
+	.fuego {
+	  width: 5px;
+	  height: 12px;
+	}
+  }
+  
+  /* Adjust for very small devices (up to 480px) */
+  @media (max-width: 480px) {
+	.happy {
+	  font-size: 18px;
+	  left: 20%;
+	  top: 40%;
+	  transform: translateX(-10%);
+	}
+  
+	.happy p {
+	  font-size: 14px;
+	}
+  
+	.button-style1, .button-style2 {
+	  top: 85%;
+	}
+  
+	.button-style1 {
+	  left: 5%;
+	}
+  
+	.button-style2 {
+	  left: 55%;
+	}
+  
+	#cake {
+	  width: 120px;
+	  height: 350px;
+	}
+	
+	.velas {
+	  top: 150px;
+	  height: 20px;
+	}
+  
+	.fuego {
+	  width: 4px;
+	  height: 10px;
+	}
+  }
+  
