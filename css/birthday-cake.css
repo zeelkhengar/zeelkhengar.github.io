@@ -173,7 +173,7 @@ body {
 	text-align: center;
 	font-size: 30px;
 	width: 60%;
-	color: #deb992;
+	color: #ffbb00;;
 	left:37%;
 	top:49%;
 	margin-left: -119px;
@@ -185,6 +185,7 @@ body {
 
 .happy p {
 	font-size: 20px;
+	color: white;
 }
 
 @keyframes happybirthdays {
